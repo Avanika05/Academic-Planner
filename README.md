@@ -20,7 +20,7 @@ A web-based **Agentic AI system** that generates personalized study schedules us
 
 
 ## Project Structure
--AcademicPlanner/
--├── app.py
--├── templates/index.html
--├── static/style.css
+AcademicPlanner/
+├── app.py
+├── templates/index.html
+├── static/style.css
