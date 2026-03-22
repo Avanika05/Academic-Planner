@@ -1,26 +1,29 @@
-# 📚 Academic Planner Agent (Agentic AI Project)
+# 📚 Academic Planner Agent
 
-A web-based **Agentic AI system** that generates personalized study schedules using dynamic user input, multi-step reasoning, and tool-based planning.
+A web-based **Agentic AI system** that generates personalized study schedules using dynamic user input and multi-step reasoning.
 
 ---
 
 ## 🚀 Features
 
-- 🧠 Goal-based planning (Agentic AI)
-- 🔁 ReAct reasoning (Thought → Action → Observation)
-- 🛠️ Tool usage (Subjects Tool + Calculator Tool)
-- 📊 Dynamic user input (subjects, difficulty, days)
-- 🌐 Interactive web interface (Flask)
-- 🎨 Modern UI (glassmorphism design)
+- Goal-based planning (Agentic AI)
+- ReAct reasoning (Thought → Action → Observation)
+- Tool usage (Subjects + Calculator)
+- Dynamic user input
+- Flask-based web interface
+- Modern UI design
 
 ---
 
-## 🧠 What is Agentic AI?
+## ⚙️ Tech Stack
 
-Agentic AI is a system where an AI agent:
-- Understands a goal
-- Plans steps
-- Uses tools
-- Produces output
+- Python (Flask)
+- HTML, CSS
 
-This project demonstrates:
+---
+
+## 🏗️ Project Structure
+AcademicPlanner/
+├── app.py
+├── templates/index.html
+├── static/style.css
