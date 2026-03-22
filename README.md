@@ -3,7 +3,7 @@
 A web-based **Agentic AI system** that generates personalized study schedules using dynamic user input and multi-step reasoning.
 
 
-## 🚀 Features
+## Features
 
 - Goal-based planning (Agentic AI)
 - ReAct reasoning (Thought → Action → Observation)
@@ -13,13 +13,13 @@ A web-based **Agentic AI system** that generates personalized study schedules us
 - Modern UI design
 
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 - Python (Flask)
 - HTML, CSS
 
 
-## 🏗️ Project Structure
+## Project Structure
 -AcademicPlanner/
 -├── app.py
 -├── templates/index.html
