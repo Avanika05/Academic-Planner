@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Academic Planner Agent</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="main">
+
+    <div class="card">
+        <h1> Academic Planner Agent 📚</h1>
+        <p class="subtitle">Smart study planner using Agentic AI</p>
+
+        <form method="POST">
+
+            <label>Subjects</label>
+            <input type="text" name="subjects" placeholder="AI, NIS, DSIP" required>
+
+            <label>Difficulty Level</label>
+            <input type="text" name="difficulty" placeholder="5, 4, 3" required>
+
+            <label>Number of Days</label>
+            <input type="number" name="days" placeholder="10" required>
+
+            <button type="submit">Generate Plan 🚀</button>
+
+        </form>
+    </div>
+
+    {% if logs %}
+    <div class="card logs">
+        <h2>🧠 Agent Reasoning</h2>
+        {% for log in logs %}
+            <p>{{ log }}</p>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if plan %}
+    <div class="card plan">
+        <h2>📅 Study Plan</h2>
+        {% for subject, days in plan.items() %}
+            <div class="plan-item">
+                <span>{{ subject }}</span>
+                <span>{{ days }} days</span>
+            </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+</div>
+
+</body>
+</html>
